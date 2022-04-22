@@ -1,5 +1,5 @@
 {
-  "lastRunTimeISO": "2022-04-22T17:19:21.440Z",
+  "lastRunTimeISO": "2022-04-22T17:26:30.938Z",
   "lastRunFigma": {
     "id": "htMqCggoXSY7y9mCNoS9l9",
     "page": "Export",
@@ -420,6 +420,24 @@
       "id": "551:65",
       "fileName": "alert-octagon-fill-16",
       "iconName": "alert-octagon-fill",
+      "description": "alert, octagon, error, attention",
+      "size": "16",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "id": "1902:67",
+      "fileName": "alert-new-octagon-fill-24",
+      "iconName": "alert-new-octagon-fill",
+      "description": "alert, octagon, error, attention",
+      "size": "24",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "1902:69",
+      "fileName": "alert-new-octagon-fill-16",
+      "iconName": "alert-new-octagon-fill",
       "description": "alert, octagon, error, attention",
       "size": "16",
       "width": 16,

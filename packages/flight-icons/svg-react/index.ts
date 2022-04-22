@@ -44,3 +44,5 @@ export { IconAlertOctagon24 } from './alert-octagon-24';
 export { IconAlertOctagon16 } from './alert-octagon-16';
 export { IconAlertOctagonFill24 } from './alert-octagon-fill-24';
 export { IconAlertOctagonFill16 } from './alert-octagon-fill-16';
+export { IconAlertNewOctagonFill24 } from './alert-new-octagon-fill-24';
+export { IconAlertNewOctagonFill16 } from './alert-new-octagon-fill-16';
