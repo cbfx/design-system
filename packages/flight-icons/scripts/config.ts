@@ -4,7 +4,7 @@ export const config: ConfigData = {
     // the data of the Figma file we sync with
     figmaFile: {
         // this is the "production" file
-        id: 'TLnoT5AYQfy3tZ0H68BgOr',
+        id: 'htMqCggoXSY7y9mCNoS9l9',
         // this is for testing purpose
         // id: '2u60imwCVJvSpH0io1O068',
         // Notice: this simple configuration is under the assumption thet all the assets will be in the same page
