@@ -1,5 +1,5 @@
 import { module, test } from 'qunit';
-import { visit } from '@ember/test-helpers';
+import { visit, click } from '@ember/test-helpers';
 import { setupApplicationTest } from 'ember-qunit';
 import percySnapshot from '@percy/ember';
 import config from 'dummy/config/environment';
@@ -43,6 +43,28 @@ module('Acceptance | Percy test', function (hooks) {
 
     await visit('/components/dropdown');
     await percySnapshot('Dropdown');
+
+    await visit('/components/form/base-elements');
+    await click('button#dummy-toggle-highlight');
+    await percySnapshot('Form - Base elements');
+
+    await visit('/components/form/text-input');
+    await percySnapshot('Form - TextInput');
+
+    await visit('/components/form/textarea');
+    await percySnapshot('Form - Textarea');
+
+    await visit('/components/form/select');
+    await percySnapshot('Form - Select');
+
+    await visit('/components/form/checkbox');
+    await percySnapshot('Form - Checkbox');
+
+    await visit('/components/form/radio');
+    await percySnapshot('Form - Radio');
+
+    await visit('/components/form/toggle');
+    await percySnapshot('Form - Toggle');
 
     await visit('/components/icon-tile');
     await percySnapshot('IconTile');
